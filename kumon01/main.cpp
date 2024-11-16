@@ -5,15 +5,15 @@ int main(int argc, char* argv[])
 	for (int i = 1; i <= 100; ++i)
 	{
 		//判定処理をここに書いてください
-		if (i/ 3 && i / 5)
+		if (i% 3 == 0 && i % 5 == 0)
 		{
 			std::cout << "hogepiyo" << std::endl;
 		}
-		else if(i / 3)
+		else if(i % 3 == 0)
 		{
 			std::cout << "hoge" << std::endl;
 		}
-		else if(i / 5)
+		else if(i % 5 == 0)
 		{
 			std::cout << "piyo" << std::endl;
 		}
